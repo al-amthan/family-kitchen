@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ManageChildren from "./pages/ManageChildren";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import MotherDashboard from "./pages/MotherDashboard";
+import MotherDashboard from "./pages/Motherdashboard";
 import ChildDashboard from "./pages/ChildDashboard";
 import AddChild from "./pages/AddChild";
 import CreateMenu from "./pages/CreateMenu";
