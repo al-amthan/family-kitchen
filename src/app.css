@@ -1,0 +1,74 @@
+.dashboard {
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+  135deg,
+  #f6d365,
+  #fda085
+  );
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+ 
+
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.logout-btn {
+  margin-top: 30px;
+  padding: 12px 20px;
+  
+}
+.child-dashboard {
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+  135deg,
+  #a1c4fd,
+  #c2e9fb
+);
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+  135deg,
+  #f6d365,
+  #fda085
+  );
+}
+.login{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  background: #f8f5f0;
+ 
+}
